@@ -8,7 +8,16 @@
 A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices
 in mobile app development and clean architecture.
 
-![App Banner](assets/images/banner.png)
+![App Banner](assets![2025-06-09 18_55_05-Greenshot](https://github.com/user-attachments/assets/4c853d16-aa1e-4dd5-b51a-342511f7d6af)
+![2025-06-09 18_54_43-Greenshot](https://github.com/user-attachments/assets/e3a82539-3c31-4b32-9f19-dcc71a25f745)
+![2025-06-09 19_03_37-Greenshot](https://github.com/user-attachments/assets/18902d96-5caa-457c-9e85-9d50b6929c78)
+![2025-06-09 19_02_48-Greenshot](https://github.com/user-attachments/assets/0aa2cf3b-2c44-46c8-908a-737f0af956c1)
+![2025-06-09 18_56_58-Greenshot](https://github.com/user-attachments/assets/1fc71f60-6869-460c-8f73-1dc7a885e843)
+![2025-06-09 18_56_25-Greenshot](https://github.com/user-attachments/assets/326593eb-4f05-4c1b-8c07-2019e0eb6820)
+![2025-06-09 18_55_54-Greenshot](https://github.com/user-attachments/assets/84299bd8-1775-4b31-bb1a-02906448ca44)
+![2025-06-09 18_55_42-Greenshot](https://github.com/user-attachments/assets/105e7520-c247-4f5a-916c-552a3a8d5268)
+![2025-06-09 18_55_17-Greenshot](https://github.com/user-attachments/assets/a66eb412-3314-4bf7-b089-6df1588770ac)
+/images/banner.png)
 
 ## 📱 Features
 
