@@ -204,7 +204,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Wasim Ghonim**
 - GitHub: @wasimGhoniem
-- LinkedIn: Wasim Ghonim
+- LinkedIn:[ Wasim Ghonim](https://linkedin.com/in/wasim-ghonim-37bb98333)
 
 ## 🔮 Future Roadmap
 
