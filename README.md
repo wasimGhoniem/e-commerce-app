@@ -1,58 +1,44 @@
 # 🛍️ Online Store
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.19.0-blue.svg)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.3.0-blue.svg)](https://dart.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/wasimGhoniem/online-store)
+A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices in mobile app development and clean architecture.
 
-A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices
-in mobile app development and clean architecture.
-
-![App Banner](assets![2025-06-09 19_13_17-Greenshot](https://github.com/user-attachments/assets/aa57f55f-1767-4a8c-889a-3e8d7a48a549)
-![2025-06-09 19_12_58-Greenshot](https://github.com/user-attachments/assets/fec33dac-74bc-47af-bdfd-47b3bd3015db)
-![2025-06-09 19_12_40-Greenshot](https://github.com/user-attachments/assets/0cc527ce-432b-4d14-9321-4d9d2edfa840)
-![2025-06-09 19_11_11-Greenshot](https://github.com/user-attachments/assets/5cb0ae77-2a24-4991-a6d0-5d58c8e6d789)
-![2025-06-09 19_09_03-Greenshot](https://github.com/user-attachments/assets/8e058948-d72a-471a-bed5-c2f6b683bda5)
-![2025-06-09 19_08_02-Greenshot](https://github.com/user-attachments/assets/783d0411-8289-4a64-9c45-14ac0b6542b9)
-![2025-06-09 19_16_16-Greenshot](https://github.com/user-attachments/assets/612e1cc9-64b1-45aa-ae7c-0bac6b54b1a9)
-![2025-06-09 19_13_37-Greenshot](https://github.com/user-attachments/assets/4ff4d0c7-d599-4472-89e6-4363ae3174b8)
-
-/images/banner.png)
+![App Banner](assets/images/bann![2025-06-09 20_46_05-Greenshot](https://github.com/user-attachments/assets/3b0566c6-9b6f-43cf-a0ac-91cdd967afe3)
+er.png)
 
 ## 📱 Features
 
-- 🏠 **Home Screen**
-  - Featured products showcase
-  - Category browsing
-  - Brand showcase
-  - Announcements and promotions
+### 🏠 Home Screen
+- Featured products showcase
+- Category browsing
+- Brand showcase
+- Announcements and promotions
 
-- 🔍 **Search & Discovery**
-  - Advanced product search
-  - Filter by name and price
-  - Real-time search results
-  - Smart product recommendations
+### 🔍 Search & Discovery
+- Advanced product search
+- Filter by name and price
+- Real-time search results
+- Smart product recommendations
 
-- 🛒 **Shopping Cart**
-  - Add/remove items
-  - Quantity management
-  - Real-time price updates
-  - Persistent cart state
+### 🛒 Shopping Cart
+- Add/remove items
+- Quantity management
+- Real-time price updates
+- Persistent cart state
 
-- ❤️ **Wishlist**
-  - Save favorite products
-  - Quick add to cart
-  - Wishlist management
+### ❤️ Wishlist
+- Save favorite products
+- Quick add to cart
+- Wishlist management
 
-- 👤 **User Authentication**
-  - Secure login/registration
-  - Profile management
-  - Session persistence
+### 👤 User Authentication
+- Secure login/registration
+- Profile management
+- Session persistence
 
-- 🌐 **Localization**
-  - Arabic and English support
-  - RTL layout support
-  - Culturally adapted UI
+### 🌐 Localization
+- Arabic and English support
+- RTL layout support
+- Culturally adapted UI
 
 ## 🛠️ Technology Stack
 
@@ -90,7 +76,6 @@ lib/
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Flutter SDK (3.19.0 or higher)
 - Dart SDK (3.3.0 or higher)
 - Android Studio / VS Code
@@ -99,49 +84,85 @@ lib/
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/wasimGhoniem/online-store.git
-   ```
+```bash
+git clone https://github.com/wasimGhoniem/online-store.git
+```
 
 2. Navigate to project directory:
-   ```bash
-   cd online-store
-   ```
+```bash
+cd online-store
+```
 
 3. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
+```bash
+flutter pub get
+```
 
 4. Run the app:
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
+
+## 📸 Screenshots
+
+### Authentication / المصادقة
+| Sign Up / التسجيل | Login / تسجيل الدخول |
+|:---:|:---:|
+| ![Sign Up Screen](screenshots/sig![2025-06-09 19_08_02-Greenshot](https://github.com/user-attachments/assets/09951827-aafe-43a3-b9b4-2992a885b279)
+nup_en.png) | ![Login Screen](screen![2025-06-09 19_09_03-Greenshot](https://github.com/user-attachments/assets/bc118b69-2c7c-4b6e-b59c-74bc806c5c42)
+shots/login_en.png) |
+| ![Sign Up Arabic](screenshots/signup_ar.png) | ![Login Arabic](screenshots/login_ar.png) |
+
+### Home & Navigation / الرئيسية والتنقل
+| Home Screen / الشاشة الرئيسية | Categories / الفئات | Brands / العلامات التجارية |
+|:---:|:---:|:---:|
+| ![Home English](screenshot![2025-06-09 19_16_16-Greenshot](https://github.com/user-attachments/assets/12535e9c-6e4a-41f3-8630-deb82014953e)
+s/home_en.png) |
+| ![Home Arabic](screenshots/home_ar.png) |
+
+### Product Discovery / اكتشاف المنتجات
+| Search / البحث | Product Details / تفاصيل المنتج | Filters / المرشحات |
+|:---:|:---:|:---:|
+| ![Search](screenshots/se![2025-06-09 19_13_37-Greenshot](https://github.com/user-attachments/assets/7542ffae-e951-4001-8681-bafee9bd95eb)
+arch_en.png) | ![Product Details](screenshots/pro![2025-06-09 19_11_11-Greenshot](https://github.com/user-attachments/assets/69a8aab4-da84-4245-bc7a-de9f0c05689e)
+duct_details_en.png) | ![Filters](screenshots/filters_en.png) |
+| ![Search Arabic](screenshots/search_ar.png) | ![Product Details Arabic](screenshots/product_details_ar.png) | ![Filters Arabic](screenshots/filters_ar.png) |
+
+### Shopping Experience / تجربة التسوق
+| Shopping Cart / سلة التسوق | Wishlist / المفضلة | Checkout / الدفع |
+|:---:|:---:|:---:|
+| ![Cart](screenshots/c![2025-06-09 19_13_17-Greenshot](https://github.com/user-attachments/assets/bca4cf47-28c6-46ed-807c-d0b9c8cf953e)
+art_en.png) | ![Wishlist](screenshots/wi![2025-06-09 19_12_40-Greenshot](https://github.com/user-attachments/assets/06fa0340-0720-47e9-867b-b3bb8965a6cf)
+shlist_en.png) | ![Checkout](screenshots/checkout_en.png) |
+| ![Cart Arabic](screenshots/cart_ar.png) | ![Wishlist Arabic](screenshots/wishlist_ar.png) | ![Checkout Arabic](screenshots/checkout_ar.png) |
+
+### User Profile / الملف الشخصي
+| Profile / الملف الشخصي | Settings / الإعدادات | Order History / تاريخ الطلبات |
+|:---:|:---:|:---:|
+| ![Profile](screensho![2025-06-09 19_12_58-Greenshot](https://github.com/user-attachments/assets/66b66427-d198-4d23-8588-30518ea7736d)
+ts/profile_en.png) | ![Settings](screenshots/settings_en.png) | ![Orders](screenshots/orders_en.png) |
+| ![Profile Arabic](screenshots/profile_ar.png) | ![Settings Arabic](screenshots/settings_ar.png) | ![Orders Arabic](screenshots/orders_ar.png) |
 
 ## 🎯 Features in Detail
 
 ### Clean Architecture
-
 - Separation of concerns
 - Domain-driven design
 - Repository pattern
 - Use case implementation
 
 ### State Management
-
 - BLoC pattern for predictable state management
 - Event-driven architecture
 - Reactive programming
 
 ### UI/UX
-
 - Material Design 3 components
 - Responsive layouts
 - Custom animations
 - Dark/Light theme support
 
 ### Performance
-
 - Optimized image loading
 - Efficient state management
 - Lazy loading implementation
@@ -157,37 +178,32 @@ lib/
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Developer
 
 **Wasim Ghonim**
-
-- GitHub: [@wasimGhoniem](https://github.com/wasimGhoniem)
-- LinkedIn: [Wasim Ghonim](https://linkedin.com/in/wasim-ghonim-37bb98333)
+- GitHub: @wasimGhoniem
+- LinkedIn: Wasim Ghonim
 
 ## 🔮 Future Roadmap
 
-- [ ] Payment gateway integration
-- [ ] Push notifications
-- [ ] Social media integration
-- [ ] Advanced analytics
-- [ ] Offline mode support
-- [ ] AR product visualization
-- [ ] Voice search capability
-
-## 📸 Screenshots
-
-*Coming soon...*
+- ✅ Payment gateway integration
+- ✅ Push notifications
+- ✅ Social media integration
+- ✅ Advanced analytics
+- ✅ Offline mode support
+- ✅ AR product visualization
+- ✅ Voice search capability
 
 ## 📞 Contact
-00201030350389
+
+**Phone:** 00201030350389
 
 For any queries or support, please reach out to:
-
-- Email: [wasimghoniem@gmail.com]
-- LinkedIn: [linkedin.com/in/wasim-ghonim-37bb98333]
+- **Email:** [wasimghoniem@gmail.com](mailto:wasimghoniem@gmail.com)
+- **LinkedIn:** [linkedin.com/in/wasim-ghonim-37bb98333](https://linkedin.com/in/wasim-ghonim-37bb98333)
 
 ---
 
-⭐ Star this repository if you find it helpful!
+⭐ **Star this repository if you find it helpful!**
