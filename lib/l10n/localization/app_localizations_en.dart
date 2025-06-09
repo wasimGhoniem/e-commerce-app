@@ -125,4 +125,85 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get enter_your_address => 'Enter your address';
+
+  @override
+  String get productDetails => 'Product Details';
+
+  @override
+  String get description => 'Description';
+
+  @override
+  String get showMore => 'Show more';
+
+  @override
+  String get showLess => 'Show less';
+
+  @override
+  String get totalPrice => 'Total price';
+
+  @override
+  String get addToCart => 'Add to cart';
+
+  @override
+  String get cart => 'Cart';
+
+  @override
+  String get checkout => 'Checkout';
+
+  @override
+  String get pleaseTryAgain => 'Please try again';
+
+  @override
+  String get searchByName => 'by Name';
+
+  @override
+  String get searchByPrice => 'by Price';
+
+  @override
+  String get review => 'Review';
+
+  @override
+  String get currency => 'EGP';
+
+  @override
+  String get addToWishlist => 'Add To Cart';
+
+  @override
+  String get errorLoadingProducts => 'Error loading products';
+
+  @override
+  String get errorLoadingCart => 'Error loading cart';
+
+  @override
+  String get errorDeletingItem => 'Error deleting item';
+
+  @override
+  String get logoutSuccess => 'Logged out successfully';
+
+  @override
+  String get userDataUpdatedSuccessfully => 'User data updated successfully';
+
+  @override
+  String get welcome => 'Welcome';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get logout => 'Log Out';
+
+  @override
+  String get categories => 'Categories';
+
+  @override
+  String get brands => 'Brands';
+
+  @override
+  String get viewAll => 'View All';
+
+  @override
+  String get itemDeleted => 'Item deleted.';
+
+  @override
+  String get whatDoYouSearchFor => 'What do you search for?';
 }

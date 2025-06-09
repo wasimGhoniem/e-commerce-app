@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:e_commerce_app/core/utils/app_assets.dart';
 import 'package:e_commerce_app/domain/entities/GetWishlistResponseEntity.dart';
 import 'package:e_commerce_app/features/ui/pages/wishlist_screen/cubit/wishlist_view_model.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -44,7 +45,7 @@ class WishlistItem extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'EGP ${item.price ?? ''}',
+                        '${AppLocalizations.of(context)!.currency} ${item.price ?? ''}',
                         style: AppStyles.light14hTextColor,
                       ),
                       Container(
@@ -59,12 +60,11 @@ class WishlistItem extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(15.r)),
                               backgroundColor: AppColors.primaryColor),
                           onPressed: () {
-                            //todo add to cart
                             ProductScreenViewModel.get(context)
                                 .addToCart(item.id ?? '', context);
                           },
                           child: Text(
-                            'Add To Cart',
+                            AppLocalizations.of(context)!.addToWishlist,
                             style: AppStyles.light16White,
                           ),
                         ),

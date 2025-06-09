@@ -4,6 +4,7 @@ import 'package:e_commerce_app/core/utils/app_styles.dart';
 import 'package:e_commerce_app/core/utils/flutter_toast_utils.dart';
 import 'package:e_commerce_app/features/ui/pages/cart_screen/cubit/cart_states.dart';
 import 'package:e_commerce_app/features/ui/pages/cart_screen/cubit/cart_view_model.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -31,7 +32,7 @@ class _CartScreenState extends State<CartScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Cart',
+          AppLocalizations.of(context)!.cart,
           style: AppStyles.light18hintText.copyWith(fontSize: 20),
         ),
         centerTitle: true,
@@ -61,7 +62,8 @@ class _CartScreenState extends State<CartScreen> {
       body: BlocConsumer<CartViewModel, CartStates>(
         listener: (context, state) {
           if (state is DeleteItemInCartSuccessState) {
-            return FlutterToastUtils.showToast('item deleted .');
+            FlutterToastUtils.showToast(
+                AppLocalizations.of(context)!.itemDeleted);
           }
         },
         bloc: CartViewModel.get(context)..getCartData(),
@@ -78,7 +80,7 @@ class _CartScreenState extends State<CartScreen> {
                       CartViewModel.get(context).getCartData();
                     },
                     child: Text(
-                      'please try again',
+                      AppLocalizations.of(context)!.pleaseTryAgain,
                       style: AppStyles.semiBold20primary,
                     ))
               ],
@@ -96,7 +98,7 @@ class _CartScreenState extends State<CartScreen> {
                       CartViewModel.get(context).getCartData();
                     },
                     child: Text(
-                      'please try again',
+                      AppLocalizations.of(context)!.pleaseTryAgain,
                       style: AppStyles.semiBold20primary,
                     ))
               ],
@@ -114,7 +116,7 @@ class _CartScreenState extends State<CartScreen> {
                       CartViewModel.get(context).getCartData();
                     },
                     child: Text(
-                      'please try again',
+                      AppLocalizations.of(context)!.pleaseTryAgain,
                       style: AppStyles.semiBold20primary,
                     ))
               ],
@@ -192,14 +194,14 @@ class _CartScreenState extends State<CartScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Total price',
+              AppLocalizations.of(context)!.totalPrice,
               style: AppStyles.light18hintTextColor,
             ),
             SizedBox(
               height: 12.h,
             ),
             Text(
-              'EGP $totalPrice',
+              '${AppLocalizations.of(context)!.currency} $totalPrice',
               style: AppStyles.light14hTextColor.copyWith(fontSize: 18),
             ),
           ],
@@ -215,7 +217,7 @@ class _CartScreenState extends State<CartScreen> {
             child: Row(
               children: [
                 Text(
-                  'CheckOut',
+                  AppLocalizations.of(context)!.checkout,
                   style: AppStyles.medium18White,
                 ),
                 SizedBox(

@@ -7,6 +7,7 @@ import 'package:e_commerce_app/features/ui/pages/home_tap/cubit/home_tap_view_mo
 import 'package:e_commerce_app/features/ui/pages/home_tap/widgets/brand.dart';
 import 'package:e_commerce_app/features/ui/pages/home_tap/widgets/build_announcement.dart';
 import 'package:e_commerce_app/features/ui/pages/home_tap/widgets/category.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -44,7 +45,7 @@ class _HomeTapState extends State<HomeTap> {
                 SizedBox(
                   height: 24.h,
                 ),
-                lineBreak('Categories'),
+                lineBreak(AppLocalizations.of(context)!.categories),
                 SizedBox(
                   height: 16.h,
                 ),
@@ -64,7 +65,7 @@ class _HomeTapState extends State<HomeTap> {
                                 viewModel.getData();
                               },
                               child: Text(
-                                'please try again',
+                                AppLocalizations.of(context)!.pleaseTryAgain,
                                 style: AppStyles.semiBold20primary,
                               ))
                         ],
@@ -84,7 +85,7 @@ class _HomeTapState extends State<HomeTap> {
                 SizedBox(
                   height: 24.h,
                 ),
-                lineBreak('Brands'),
+                lineBreak(AppLocalizations.of(context)!.brands),
                 SizedBox(
                   height: 16.h,
                 ),
@@ -103,7 +104,7 @@ class _HomeTapState extends State<HomeTap> {
                                 viewModel.getData();
                               },
                               child: Text(
-                                'please try again',
+                                AppLocalizations.of(context)!.pleaseTryAgain,
                                 style: AppStyles.semiBold20primary,
                               ))
                         ],
@@ -133,7 +134,7 @@ class _HomeTapState extends State<HomeTap> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(text, style: AppStyles.light18hintText),
-        Text('view all',
+        Text(AppLocalizations.of(context)!.viewAll,
             style: AppStyles.light18hintText.copyWith(fontSize: 12))
       ],
     );

@@ -7,6 +7,7 @@ import 'package:e_commerce_app/core/utils/validators.dart';
 import 'package:e_commerce_app/features/ui/pages/profile/cubit/profile_states.dart';
 import 'package:e_commerce_app/features/ui/pages/profile/cubit/profile_view_model.dart';
 import 'package:e_commerce_app/features/ui/widgets/custom_text_form_field.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -40,25 +41,26 @@ class _ProfileScreenState extends State<ProfileScreen> {
               DialogUtils.showMessage(
                   context: context,
                   message: state.failures.errorMessage,
-                  posActionName: 'Ok');
+                  posActionName: AppLocalizations.of(context)!.ok);
             }
             if (state is UpdateLoggedUserErrorState) {
               DialogUtils.showMessage(
                   context: context,
                   message: state.failures.errorMessage,
-                  posActionName: 'Ok');
+                  posActionName: AppLocalizations.of(context)!.ok);
             } else if (state is ProfileLogOutState) {
               DialogUtils.showMessage(
                   context: context,
-                  message: 'log out successfully',
-                  posActionName: 'Ok',
+                  message: AppLocalizations.of(context)!.logoutSuccess,
+                  posActionName: AppLocalizations.of(context)!.ok,
                   posAction: () => Navigator.of(context)
                       .pushReplacementNamed(AppRoutes.loginRoute));
             } else if (state is UpdateLoggedUserSuccessState) {
               DialogUtils.showMessage(
                   context: context,
-                  message: 'user data updated successfully',
-                  posActionName: 'Ok');
+                  message:
+                      AppLocalizations.of(context)!.userDataUpdatedSuccessfully,
+                  posActionName: AppLocalizations.of(context)!.ok);
             }
           },
           builder: (context, state) {
@@ -82,7 +84,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       Image.asset(AppAssets.routeBarIcon, height: 30.h),
                       SizedBox(height: 8.h),
                       Text(
-                        'Welcome, ${viewModel.fullNameController.text.split(' ').first}',
+                        '${AppLocalizations.of(context)!.welcome}, ${viewModel.fullNameController.text.split(' ').first}',
                         style: AppStyles.light18hintText,
                       ),
                       Text(
@@ -90,7 +92,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         style: AppStyles.light14hTextColor,
                       ),
                       SizedBox(height: 24.h),
-                      Text('full name', style: AppStyles.light18hintText),
+                      Text(AppLocalizations.of(context)!.fullName,
+                          style: AppStyles.light18hintText),
                       SizedBox(
                         height: 16.h,
                       ),
@@ -112,7 +115,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   size: 18, color: AppColors.hintTextColor),
                             ),
                             SizedBox(height: 16.h),
-                            Text('E-mail', style: AppStyles.light18hintText),
+                            Text(AppLocalizations.of(context)!.emailAddress,
+                                style: AppStyles.light18hintText),
                             SizedBox(
                               height: 16.h,
                             ),
@@ -129,7 +133,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   size: 18, color: AppColors.hintTextColor),
                             ),
                             SizedBox(height: 16.h),
-                            Text('mobile number',
+                            Text(AppLocalizations.of(context)!.mobileNumber,
                                 style: AppStyles.light18hintText),
                             SizedBox(
                               height: 16.h,
@@ -146,7 +150,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   size: 18, color: AppColors.hintTextColor),
                             ),
                             SizedBox(height: 16.h),
-                            Text('Address', style: AppStyles.light18hintText),
+                            Text(
+                                AppLocalizations.of(context)!
+                                    .enter_your_address,
+                                style: AppStyles.light18hintText),
                             SizedBox(
                               height: 16.h,
                             ),
@@ -173,7 +180,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   padding: EdgeInsets.symmetric(vertical: 12.h),
                                 ),
                                 child: Text(
-                                  'Save',
+                                  AppLocalizations.of(context)!.save,
                                   style: AppStyles.medium18White,
                                 ),
                               ),
@@ -197,7 +204,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             padding: EdgeInsets.symmetric(vertical: 12.h),
                           ),
                           child: Text(
-                            'Log Out',
+                            AppLocalizations.of(context)!.logout,
                             style: AppStyles.medium18White,
                           ),
                         ),

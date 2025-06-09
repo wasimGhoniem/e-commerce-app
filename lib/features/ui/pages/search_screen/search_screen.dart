@@ -4,6 +4,7 @@ import 'package:e_commerce_app/core/utils/app_styles.dart';
 import 'package:e_commerce_app/dependency_injection/di.dart';
 import 'package:e_commerce_app/features/ui/pages/product/widgets/product_item.dart';
 import 'package:e_commerce_app/features/ui/widgets/custom_text_form_field.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -182,7 +183,7 @@ class _SearchScreenState extends State<SearchScreen> {
               Icon(Icons.text_fields, size: 22.sp),
               SizedBox(width: 8.w),
               Text(
-                'by Name',
+                AppLocalizations.of(context)!.searchByName,
                 style: TextStyle(fontSize: 22.sp),
               ),
             ],
@@ -196,7 +197,7 @@ class _SearchScreenState extends State<SearchScreen> {
               Icon(Icons.attach_money, size: 22.sp),
               SizedBox(width: 8.w),
               Text(
-                'by Price',
+                AppLocalizations.of(context)!.searchByPrice,
                 style: TextStyle(fontSize: 22.sp),
               ),
             ],

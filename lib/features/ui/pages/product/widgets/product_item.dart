@@ -5,6 +5,7 @@ import 'package:e_commerce_app/core/utils/app_styles.dart';
 import 'package:e_commerce_app/features/ui/pages/product/cubit/product_screen_view_model.dart';
 import 'package:e_commerce_app/features/ui/pages/product/cubit/product_states.dart';
 import 'package:e_commerce_app/features/ui/pages/wishlist_screen/cubit/wishlist_view_model.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -94,14 +95,14 @@ class ProductItem extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'EGP ${item.price}',
+                        '${AppLocalizations.of(context)!.currency} ${item.price}',
                         style:
                             AppStyles.light14hTextColor.copyWith(fontSize: 11),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
                       Text(
-                        'EGP ${(item.price! * 1.2).toInt()}',
+                        '${AppLocalizations.of(context)!.currency} ${(item.price! * 1.2).toInt()}',
                         style: AppStyles.light11Discount.copyWith(
                           decoration: TextDecoration.lineThrough,
                         ),
@@ -114,7 +115,7 @@ class ProductItem extends StatelessWidget {
                   Row(
                     children: [
                       Text(
-                        'Review (${item.ratingsAverage})',
+                        '${AppLocalizations.of(context)!.review} (${item.ratingsAverage})',
                         style: AppStyles.light18hintTextColor
                             .copyWith(fontSize: 10),
                       ),

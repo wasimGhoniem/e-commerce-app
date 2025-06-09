@@ -125,4 +125,85 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get enter_your_address => 'أدخل عنوانك';
+
+  @override
+  String get productDetails => 'تفاصيل المنتج';
+
+  @override
+  String get description => 'الوصف';
+
+  @override
+  String get showMore => 'عرض المزيد';
+
+  @override
+  String get showLess => 'عرض أقل';
+
+  @override
+  String get totalPrice => 'السعر الإجمالي';
+
+  @override
+  String get addToCart => 'أضف إلى السلة';
+
+  @override
+  String get cart => 'السلة';
+
+  @override
+  String get checkout => 'إتمام الشراء';
+
+  @override
+  String get pleaseTryAgain => 'يرجى المحاولة مرة أخرى';
+
+  @override
+  String get searchByName => 'بالاسم';
+
+  @override
+  String get searchByPrice => 'بالسعر';
+
+  @override
+  String get review => 'التقييم';
+
+  @override
+  String get currency => 'ج.م';
+
+  @override
+  String get addToWishlist => 'أضف إلى السلة';
+
+  @override
+  String get errorLoadingProducts => 'خطأ في تحميل المنتجات';
+
+  @override
+  String get errorLoadingCart => 'خطأ في تحميل السلة';
+
+  @override
+  String get errorDeletingItem => 'خطأ في حذف العنصر';
+
+  @override
+  String get logoutSuccess => 'تم تسجيل الخروج بنجاح';
+
+  @override
+  String get userDataUpdatedSuccessfully => 'تم تحديث بيانات المستخدم بنجاح';
+
+  @override
+  String get welcome => 'أهلاً بك';
+
+  @override
+  String get save => 'حفظ';
+
+  @override
+  String get logout => 'تسجيل الخروج';
+
+  @override
+  String get categories => 'الفئات';
+
+  @override
+  String get brands => 'الماركات';
+
+  @override
+  String get viewAll => 'مشاهدة الكل';
+
+  @override
+  String get itemDeleted => 'تم حذف العنصر.';
+
+  @override
+  String get whatDoYouSearchFor => 'ماذا تبحث عنه؟';
 }

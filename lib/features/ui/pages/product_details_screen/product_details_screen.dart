@@ -2,6 +2,7 @@ import 'package:e_commerce_app/core/utils/app_colors.dart';
 import 'package:e_commerce_app/core/utils/app_styles.dart';
 import 'package:e_commerce_app/features/ui/pages/product_details_screen/widgets/custom_image_slide_show.dart';
 import 'package:e_commerce_app/features/ui/pages/product_details_screen/widgets/custom_rating_row.dart';
+import 'package:e_commerce_app/l10n/localization/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:readmore/readmore.dart';
@@ -27,7 +28,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            title: Text('Product Details',
+            title: Text(AppLocalizations.of(context)!.productDetails,
                 style: AppStyles.light14hTextColor.copyWith(fontSize: 20)),
             centerTitle: true,
             actions: [
@@ -115,7 +116,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                     height: 16,
                   ),
                   Text(
-                    'Description',
+                    AppLocalizations.of(context)!.description,
                     style: AppStyles.light14hTextColor.copyWith(fontSize: 18),
                   ),
                   SizedBox(
@@ -125,8 +126,8 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                     item.description ?? '',
                     trimMode: TrimMode.Line,
                     trimLines: 2,
-                    trimCollapsedText: 'Show more',
-                    trimExpandedText: 'Show less',
+                    trimCollapsedText: AppLocalizations.of(context)!.showMore,
+                    trimExpandedText: AppLocalizations.of(context)!.showLess,
                     moreStyle: AppStyles.light14hTextColor,
                     lessStyle: AppStyles.light14hTextColor,
                   ),
@@ -139,14 +140,14 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Total price',
+                            AppLocalizations.of(context)!.totalPrice,
                             style: AppStyles.light18hintTextColor,
                           ),
                           SizedBox(
                             height: 12,
                           ),
                           Text(
-                            'EGP ${item.price}',
+                            '${AppLocalizations.of(context)!.currency} ${item.price}',
                             style: AppStyles.light14hTextColor
                                 .copyWith(fontSize: 18),
                           ),
@@ -171,7 +172,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                                 width: 12.w,
                               ),
                               Text(
-                                'Add to cart',
+                                AppLocalizations.of(context)!.addToCart,
                                 style: AppStyles.medium18White,
                               )
                             ],
