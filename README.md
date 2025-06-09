@@ -8,15 +8,15 @@
 A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices
 in mobile app development and clean architecture.
 
-![App Banner](assets![2025-06-09 18_55_05-Greenshot](https://github.com/user-attachments/assets/4c853d16-aa1e-4dd5-b51a-342511f7d6af)
-![2025-06-09 18_54_43-Greenshot](https://github.com/user-attachments/assets/e3a82539-3c31-4b32-9f19-dcc71a25f745)
-![2025-06-09 19_03_37-Greenshot](https://github.com/user-attachments/assets/18902d96-5caa-457c-9e85-9d50b6929c78)
-![2025-06-09 19_02_48-Greenshot](https://github.com/user-attachments/assets/0aa2cf3b-2c44-46c8-908a-737f0af956c1)
-![2025-06-09 18_56_58-Greenshot](https://github.com/user-attachments/assets/1fc71f60-6869-460c-8f73-1dc7a885e843)
-![2025-06-09 18_56_25-Greenshot](https://github.com/user-attachments/assets/326593eb-4f05-4c1b-8c07-2019e0eb6820)
-![2025-06-09 18_55_54-Greenshot](https://github.com/user-attachments/assets/84299bd8-1775-4b31-bb1a-02906448ca44)
-![2025-06-09 18_55_42-Greenshot](https://github.com/user-attachments/assets/105e7520-c247-4f5a-916c-552a3a8d5268)
-![2025-06-09 18_55_17-Greenshot](https://github.com/user-attachments/assets/a66eb412-3314-4bf7-b089-6df1588770ac)
+![App Banner](assets![2025-06-09 19_13_17-Greenshot](https://github.com/user-attachments/assets/aa57f55f-1767-4a8c-889a-3e8d7a48a549)
+![2025-06-09 19_12_58-Greenshot](https://github.com/user-attachments/assets/fec33dac-74bc-47af-bdfd-47b3bd3015db)
+![2025-06-09 19_12_40-Greenshot](https://github.com/user-attachments/assets/0cc527ce-432b-4d14-9321-4d9d2edfa840)
+![2025-06-09 19_11_11-Greenshot](https://github.com/user-attachments/assets/5cb0ae77-2a24-4991-a6d0-5d58c8e6d789)
+![2025-06-09 19_09_03-Greenshot](https://github.com/user-attachments/assets/8e058948-d72a-471a-bed5-c2f6b683bda5)
+![2025-06-09 19_08_02-Greenshot](https://github.com/user-attachments/assets/783d0411-8289-4a64-9c45-14ac0b6542b9)
+![2025-06-09 19_16_16-Greenshot](https://github.com/user-attachments/assets/612e1cc9-64b1-45aa-ae7c-0bac6b54b1a9)
+![2025-06-09 19_13_37-Greenshot](https://github.com/user-attachments/assets/4ff4d0c7-d599-4472-89e6-4363ae3174b8)
+
 /images/banner.png)
 
 ## 📱 Features
