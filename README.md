@@ -2,7 +2,8 @@
 
 A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices in mobile app development and clean architecture.
 
-![App Banner](https://github.com/user-attachments/assets/3b0566c6-9b6f-43cf-a0ac-91cdd967afe3)
+![App Banner](![2025-06-09 20_46_05-Greenshot](https://github.com/user-attachments/assets/b80bf920-737d-4cb1-ac4e-6d77d0233bd1)
+)
 
 ## 📱 Features
 
