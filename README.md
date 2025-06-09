@@ -155,7 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Wasim Ghonim**
 
 - GitHub: [@wasimGhoniem](https://github.com/wasimGhoniem)
-- LinkedIn: [Wasim Ghonim](https://linkedin.com/in/wasimghoniem)
+- LinkedIn: [Wasim Ghonim](linkedin.com/in/wasim-ghonim-37bb98333)
 
 ## 🔮 Future Roadmap
 
@@ -172,11 +172,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Coming soon...*
 
 ## 📞 Contact
+00201030350389
 
 For any queries or support, please reach out to:
 
-- Email: [Your Email]
-- LinkedIn: [Your LinkedIn Profile]
+- Email: [wasimghoniem@gmail.com]
+- LinkedIn: [linkedin.com/in/wasim-ghonim-37bb98333]
 
 ---
 
