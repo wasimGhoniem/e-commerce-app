@@ -2,8 +2,7 @@
 
 A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices in mobile app development and clean architecture.
 
-![App Banner](assets/images/bann![2025-06-09 20_46_05-Greenshot](https://github.com/user-attachments/assets/3b0566c6-9b6f-43cf-a0ac-91cdd967afe3)
-er.png)
+![App Banner](https://github.com/user-attachments/assets/3b0566c6-9b6f-43cf-a0ac-91cdd967afe3)
 
 ## 📱 Features
 
@@ -105,43 +104,63 @@ flutter run
 
 ## 📸 Screenshots
 
-### Authentication / المصادقة
-| Sign Up / التسجيل | Login / تسجيل الدخول |
+### 🔐 Authentication Screens
+Secure user authentication with bilingual support
+
+| **Sign Up** | **Login** |
 |:---:|:---:|
-| ![Sign Up Screen](screenshots/sig![2025-06-09 19_08_02-Greenshot](https://github.com/user-attachments/assets/09951827-aafe-43a3-b9b4-2992a885b279)
-nup_en.png) | ![Login Screen](screen![2025-06-09 19_09_03-Greenshot](https://github.com/user-attachments/assets/bc118b69-2c7c-4b6e-b59c-74bc806c5c42)
-shots/login_en.png) |
-| ![Sign Up Arabic](screenshots/signup_ar.png) | ![Login Arabic](screenshots/login_ar.png) |
+| ![Sign Up Screen](https://github.com/user-attachments/assets/09951827-aafe-43a3-b9b4-2992a885b279) | ![Login Screen](https://github.com/user-attachments/assets/bc118b69-2c7c-4b6e-b59c-74bc806c5c42) |
 
-### Home & Navigation / الرئيسية والتنقل
-| Home Screen / الشاشة الرئيسية | Categories / الفئات | Brands / العلامات التجارية |
-|:---:|:---:|:---:|
-| ![Home English](screenshot![2025-06-09 19_16_16-Greenshot](https://github.com/user-attachments/assets/12535e9c-6e4a-41f3-8630-deb82014953e)
-s/home_en.png) |
-| ![Home Arabic](screenshots/home_ar.png) |
+---
 
-### Product Discovery / اكتشاف المنتجات
-| Search / البحث | Product Details / تفاصيل المنتج | Filters / المرشحات |
-|:---:|:---:|:---:|
-| ![Search](screenshots/se![2025-06-09 19_13_37-Greenshot](https://github.com/user-attachments/assets/7542ffae-e951-4001-8681-bafee9bd95eb)
-arch_en.png) | ![Product Details](screenshots/pro![2025-06-09 19_11_11-Greenshot](https://github.com/user-attachments/assets/69a8aab4-da84-4245-bc7a-de9f0c05689e)
-duct_details_en.png) | ![Filters](screenshots/filters_en.png) |
-| ![Search Arabic](screenshots/search_ar.png) | ![Product Details Arabic](screenshots/product_details_ar.png) | ![Filters Arabic](screenshots/filters_ar.png) |
+### 🏠 Home & Core Features
+Main application interface with featured products and navigation
 
-### Shopping Experience / تجربة التسوق
-| Shopping Cart / سلة التسوق | Wishlist / المفضلة | Checkout / الدفع |
+| **Home Screen** | **Search & Discovery** | **Product Details** |
 |:---:|:---:|:---:|
-| ![Cart](screenshots/c![2025-06-09 19_13_17-Greenshot](https://github.com/user-attachments/assets/bca4cf47-28c6-46ed-807c-d0b9c8cf953e)
-art_en.png) | ![Wishlist](screenshots/wi![2025-06-09 19_12_40-Greenshot](https://github.com/user-attachments/assets/06fa0340-0720-47e9-867b-b3bb8965a6cf)
-shlist_en.png) | ![Checkout](screenshots/checkout_en.png) |
-| ![Cart Arabic](screenshots/cart_ar.png) | ![Wishlist Arabic](screenshots/wishlist_ar.png) | ![Checkout Arabic](screenshots/checkout_ar.png) |
+| ![Home Screen](https://github.com/user-attachments/assets/12535e9c-6e4a-41f3-8630-deb82014953e) | ![Search Screen](https://github.com/user-attachments/assets/7542ffae-e951-4001-8681-bafee9bd95eb) | ![Product Details](https://github.com/user-attachments/assets/69a8aab4-da84-4245-bc7a-de9f0c05689e) |
+| Browse featured products and categories | Advanced search with filters | Detailed product information and reviews |
 
-### User Profile / الملف الشخصي
-| Profile / الملف الشخصي | Settings / الإعدادات | Order History / تاريخ الطلبات |
+---
+
+### 🛒 Shopping Experience
+Complete shopping cart and wishlist functionality
+
+| **Shopping Cart** | **Wishlist** | **Profile** |
 |:---:|:---:|:---:|
-| ![Profile](screensho![2025-06-09 19_12_58-Greenshot](https://github.com/user-attachments/assets/66b66427-d198-4d23-8588-30518ea7736d)
-ts/profile_en.png) | ![Settings](screenshots/settings_en.png) | ![Orders](screenshots/orders_en.png) |
-| ![Profile Arabic](screenshots/profile_ar.png) | ![Settings Arabic](screenshots/settings_ar.png) | ![Orders Arabic](screenshots/orders_ar.png) |
+| ![Shopping Cart](https://github.com/user-attachments/assets/bca4cf47-28c6-46ed-807c-d0b9c8cf953e) | ![Wishlist](https://github.com/user-attachments/assets/06fa0340-0720-47e9-867b-b3bb8965a6cf) | ![User Profile](https://github.com/user-attachments/assets/66b66427-d198-4d23-8588-30518ea7736d) |
+| Manage cart items and quantities | Save favorite products | User account management |
+
+---
+
+### 🎨 UI/UX Highlights
+
+#### ✨ **Key Features Demonstrated:**
+- **Clean Material Design 3** interface with modern aesthetics
+- **Responsive layouts** optimized for mobile devices
+- **Intuitive navigation** with bottom tab bar and drawer
+- **Rich product displays** with high-quality images
+- **Seamless user experience** across all screens
+- **Consistent branding** and visual hierarchy
+
+#### 🌟 **Design Excellence:**
+- Smooth animations and transitions
+- Optimized loading states
+- Error handling with user-friendly messages
+- Accessibility-focused design
+- Cross-platform consistency
+
+---
+
+### 📱 App Flow Overview
+
+```
+🔐 Authentication → 🏠 Home → 🔍 Search → 📦 Product Details → 🛒 Cart → ✅ Checkout
+                    ↓
+                 ❤️ Wishlist ← → 👤 Profile
+```
+
+**Total Screenshots:** 8 screens showcasing complete user journey
 
 ## 🎯 Features in Detail
 
