@@ -1,4 +1,4 @@
-# 🛍️ Online Store
+# 🛍️ All You Need App
 
 A modern, feature-rich e-commerce mobile application built with Flutter, showcasing best practices in mobile app development and clean architecture.
 
